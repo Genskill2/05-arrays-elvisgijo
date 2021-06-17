@@ -3,7 +3,7 @@
 int max(int x[], int n)
 {  int m = x[0];
    for(int i=1;i<n;i++){
-      if( m<x[i]{ 
+      if(m<x[i]){ 
          m=x[i];
       }
    }
