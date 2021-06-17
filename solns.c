@@ -3,8 +3,8 @@
 int max(int x[], int n)
 {  int m = x[0];
    for(int i=1;i<n;i++){
-      if( max<x[i])
-      {  m = x[i];
+      if( m<x[i]{ 
+         m=x[i];
       }
    }
  return m;
@@ -51,12 +51,11 @@ int factors(int n,int x[])
   int j=0;
    for(count=2;n>1;count++){
      while(n%count==0)
-     { x[j]=count;
-        j++;
+     { x[j++]=count;
        n=n/count;
      }
    }
- return j+1;
+ return j;
 }
 
 
